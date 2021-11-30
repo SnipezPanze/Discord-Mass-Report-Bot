@@ -45,7 +45,7 @@ print(f"""
 {b+Fore.RED} {5} > {Fore.RESET}NSFW Content {b+Fore.GREEN}::{Fore.RESET} 5
 """)
 
-token = input(f"{b+Fore.BLUE} > Token{Fore.RESET}: ")
+token = input(f"{b+Fore.BLUE} > Token{OTE1Mjk5MTc3MTg4MTcxODM2.YaZkyQ.VO-fiJbPgxL14X5iUz-NMGKGbEU}: ")
 headers = {'Authorization': token, 'Content-Type':  'application/json'}  
 r = requests.get('https://discord.com/api/v6/users/@me', headers=headers)
 if r.status_code == 200:
